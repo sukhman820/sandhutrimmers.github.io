@@ -1,0 +1,30 @@
+section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+section .image {
+    flex: 1;
+    padding-right: 1rem;
+}
+
+section .image img {
+    width: 100%;
+    height: auto;
+}
+
+section .content {
+    flex: 2;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    section {
+        flex-direction: column;
+    }
+    section .image, section .content {
+        padding: 0;
+        flex: none;
+    }
+}

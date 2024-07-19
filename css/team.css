@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card .description {
+    padding: 15px;
+}
+.card .description h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+.card .description p {
+    margin: 0;
+    color: #555;
+}
